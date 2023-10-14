@@ -159,10 +159,10 @@ def connect_webapp(cmd, client, resource_group_name, application, app_service, e
     from azure.mgmt.core.tools import parse_resource_id, is_valid_resource_id
 
     app_insights = client.get(resource_group_name, application)
-    if app_insights is None or app_insights.instrumentation_key is None:
+    if app_insights is None or app_insights.connection_string is None:
         raise InvalidArgumentValueError(f"App Insights {application} under resource group {resource_group_name} was not found.")
 
-    settings = [f"APPINSIGHTS_INSTRUMENTATIONKEY={app_insights.instrumentation_key}"]
+    settings = [f"APPLICATIONINSIGHTS_CONNECTION_STRING={app_insights.connection_string}"]
     if enable_profiler is True:
         settings.append("APPINSIGHTS_PROFILERFEATURE_VERSION=1.0.0")
     elif enable_profiler is False:
@@ -184,10 +184,10 @@ def connect_function(cmd, client, resource_group_name, application, app_service)
     from azure.cli.command_modules.appservice.custom import update_app_settings
     from azure.mgmt.core.tools import parse_resource_id, is_valid_resource_id
     app_insights = client.get(resource_group_name, application)
-    if app_insights is None or app_insights.instrumentation_key is None:
+    if app_insights is None or app_insights.connection_string is None:
         raise InvalidArgumentValueError(f"App Insights {application} under resource group {resource_group_name} was not found.")
 
-    settings = [f"APPINSIGHTS_INSTRUMENTATIONKEY={app_insights.instrumentation_key}"]
+    settings = [f"APPLICATIONINSIGHTS_CONNECTION_STRING={app_insights.connection_string}"]
 
     if is_valid_resource_id(app_service):
         resource_id = parse_resource_id(app_service)

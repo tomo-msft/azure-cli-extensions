@@ -793,7 +793,7 @@ interactions:
 - request:
     body: '{"properties": {"FUNCTIONS_WORKER_RUNTIME": "node", "WEBSITE_NODE_DEFAULT_VERSION":
       "~14", "FUNCTIONS_EXTENSION_VERSION": "~3", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==",
-      "APPINSIGHTS_INSTRUMENTATIONKEY": "7131619a-a4f1-43e6-bfc5-93f40959ee59"}}'
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "7131619a-a4f1-43e6-bfc5-93f40959ee59","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=7131619a-a4f1-43e6-bfc5-93f40959ee59;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       Accept:
       - application/json
@@ -816,7 +816,7 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/clitestfunction000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"7131619a-a4f1-43e6-bfc5-93f40959ee59"}}'
+        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"7131619a-a4f1-43e6-bfc5-93f40959ee59","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=7131619a-a4f1-43e6-bfc5-93f40959ee59;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       cache-control:
       - no-cache
@@ -940,7 +940,7 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/clitestfunction000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"7131619a-a4f1-43e6-bfc5-93f40959ee59"}}'
+        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"7131619a-a4f1-43e6-bfc5-93f40959ee59","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=7131619a-a4f1-43e6-bfc5-93f40959ee59;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       cache-control:
       - no-cache
@@ -1029,7 +1029,7 @@ interactions:
 - request:
     body: '{"properties": {"FUNCTIONS_WORKER_RUNTIME": "node", "WEBSITE_NODE_DEFAULT_VERSION":
       "~14", "FUNCTIONS_EXTENSION_VERSION": "~3", "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==",
-      "APPINSIGHTS_INSTRUMENTATIONKEY": "57e4d8d1-2a7f-446d-88e0-5560fea73556"}}'
+      "APPINSIGHTS_INSTRUMENTATIONKEY": "57e4d8d1-2a7f-446d-88e0-5560fea73556","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=57e4d8d1-2a7f-446d-88e0-5560fea73556;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       Accept:
       - application/json
@@ -1052,7 +1052,7 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/clitestfunction000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"57e4d8d1-2a7f-446d-88e0-5560fea73556"}}'
+        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"57e4d8d1-2a7f-446d-88e0-5560fea73556","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=57e4d8d1-2a7f-446d-88e0-5560fea73556;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       cache-control:
       - no-cache
@@ -1109,7 +1109,7 @@ interactions:
   response:
     body:
       string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest.rg000001/providers/Microsoft.Web/sites/clitestfunction000004/config/appsettings","name":"appsettings","type":"Microsoft.Web/sites/config","location":"West
-        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"57e4d8d1-2a7f-446d-88e0-5560fea73556"}}'
+        US","properties":{"FUNCTIONS_WORKER_RUNTIME":"node","WEBSITE_NODE_DEFAULT_VERSION":"~14","FUNCTIONS_EXTENSION_VERSION":"~3","AzureWebJobsStorage":"DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=clitest000002;AccountKey=veryFakedStorageAccountKey==","APPINSIGHTS_INSTRUMENTATIONKEY":"57e4d8d1-2a7f-446d-88e0-5560fea73556","APPLICATIONINSIGHTS_CONNECTION_STRING":"InstrumentationKey=57e4d8d1-2a7f-446d-88e0-5560fea73556;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/"}}'
     headers:
       cache-control:
       - no-cache
